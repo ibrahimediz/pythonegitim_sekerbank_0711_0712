@@ -1,4 +1,12 @@
+import keyword
+print(keyword.kwlist)
+
+isim=input("isim: ")
+print("Merhaba",isim,"hocam")
+
 yaş=input("yaş: ")
-print(yaş)
-deg1=python
-print(python)
+print("Yaşınız: ",yaş)
+deg1="Degisiyor"
+print("degisken: ",deg1)
+
+

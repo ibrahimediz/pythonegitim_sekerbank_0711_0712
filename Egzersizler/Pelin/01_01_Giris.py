@@ -2,5 +2,7 @@
 var1 =2
 var1=var2=2
 
-deg1=input("yaşınızı giriniz:")
-print("Yaşınız",deg1,"'dur")
+yas=input("yaşınızı giriniz:")
+print("Yaşınız",yas,".")
+deg1 =15
+print("değeriniz:",deg1)
