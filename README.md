@@ -1,0 +1,2 @@
+# pythonegitim_sekerbank_0711_0712
+Şekerbank Python Eğitimi
