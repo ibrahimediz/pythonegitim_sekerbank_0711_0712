@@ -1,0 +1,2 @@
+yas = input("Yaş:")
+
