@@ -1,0 +1,1 @@
+print("yas",input(yas_bilgisi))

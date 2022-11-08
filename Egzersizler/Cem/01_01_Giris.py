@@ -1,3 +1,4 @@
+
 isim = input("Yaş Giriniz:")
 
 print("Yaşınız : ",isim)

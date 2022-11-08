@@ -4,3 +4,4 @@ print("merhaba Kerem",1,2,3,4,sep='-',end="----->>>")
 isim= input("isminiz:")
 print("Merhaba",isim)
 
+
