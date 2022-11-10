@@ -6,3 +6,9 @@ print("yasınız",var_yas)
 
 deg1=999
 print(deg1);
+
+
+
+varisim= 'kerem'
+
+print(varisim(:4))
