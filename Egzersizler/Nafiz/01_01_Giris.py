@@ -9,6 +9,3 @@ print(deg1);
 
 
 
-varisim= 'kerem'
-
-print(varisim(:4))

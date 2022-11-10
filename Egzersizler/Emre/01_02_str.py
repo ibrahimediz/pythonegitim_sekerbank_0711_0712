@@ -1,0 +1,5 @@
+isim=input('ad giriniz: ')
+print('ad: ',isim)
+print(isim[:3])
+print(isim[])
+print(isim[::-1])

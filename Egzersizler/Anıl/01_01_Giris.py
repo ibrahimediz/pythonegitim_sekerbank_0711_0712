@@ -11,4 +11,6 @@ print("degisken: ",deg1)
 
 
 isim = input("İsim: ")
-print (isim[0,2])
+print (isim[:3])
+print (isim[4])
+print (isim[::-1])

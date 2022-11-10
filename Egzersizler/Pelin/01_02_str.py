@@ -1,4 +1,5 @@
-yas=input("yaşınızı giriniz:")
+ad=input("isminizi 5 karakterden uzun olacak şekilde giriniz:")
+print(ad[0,3])
 
 
 #str veri tipi
