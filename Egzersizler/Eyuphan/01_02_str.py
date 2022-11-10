@@ -1,3 +1,4 @@
-var1 = "Şekerbank"
-#       012345678
-print(var1[0],var1[8])
+var2 = input('deger gir...:')
+print(var2[:3])
+print(var2[4])
+print(var2[::-1])

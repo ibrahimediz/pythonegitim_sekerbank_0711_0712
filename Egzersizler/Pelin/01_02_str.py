@@ -1,6 +1,8 @@
 ad=input("isminizi 5 karakterden uzun olacak şekilde giriniz:")
-print(ad[0,3])
-
+print(ad,type(ad))
+print(ad[0:3])
+print(ad[4])
+print(ad[::-1])
 
 #str veri tipi
 #1.tanımlama
@@ -35,8 +37,8 @@ print(var1[0],var1[-9]) #aynı sonucu verir Ş
 
 ### Slicing-Bölümleme
 var1 = "Şekerbank"
-print(var1[0,5]) #5 gelmez Şeker
-print(var1[5,9]) #bank
+print(var1[0:5]) #5 gelmez Şeker
+print(var1[5:9]) #bank
 print(var1[5:]) #bank
 print(var1[:5])#Şeker
 print(var1[0:-4],var1[:-4]) #Şeker Şeker

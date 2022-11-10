@@ -6,8 +6,10 @@
 ##<br>çalışmanızı isminize açılmış klasörde bulunan 01_02_str.py dosyasında yapabilirsiniz.
 
 
-varisim= 'keremşentürk'
+varisim= 'KEREM ŞENTÜRK'
 
 print(varisim[:3])
 
-print(varisim[4:4])
+print(varisim[4])
+
+print(varisim[::-1])
