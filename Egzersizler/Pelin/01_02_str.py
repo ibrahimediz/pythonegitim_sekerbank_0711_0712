@@ -45,6 +45,60 @@ print(var1[0:-4],var1[:-4]) #Şeker Şeker
 print(var1[::3]) #şea
 print(var1[::-1])#tersinden yazdırır. knabrekeŞ
 
+#YARDIMCI FONKSİYONLAR
+var1="Ankara"
+var1.index("a") # en düşük index numarasını verir
+var1.rindex("a") # sondan başlayarak gelen ilk index
+var1.find("a") #olmayan bir değer olunca -1 döner, index hata verir
+var1.rfind("a")
+var1.replace("a", "e") # anlık değiştirir, sürekli değişmesine sebp olmaz
+var1=var1.replace("a", "e") # sürekli değişime sebep
+var1.replace("a", "e",2).replace("k", "t")
+
+var1 = "Teşekkürler Süperman" #Teşekkürler Süpırmın
+print(var1[::-1].replace("e", "ı",2)[::-1])
+
+# Split ve Strip
+var1= "12000 3 4 30000 1"
+var1.split() # -> liste veri tipinde () içine verilen şeyi ayraç kullanır bişey vermezsen boşluk kullanır
+var1.split("",maxsplit=2)
+var1 = "        Şekerbank        "
+var1.strip() # Trim boşlukları
+var1 = "..........Şekerbank......."
+var1.strip(".") # Trim noktaları
+var1 = "....a.....Şekerbank..._2.."
+var1.strip(".a_2") # Trim içerdeki karakterleri baştan ve sondan başlayarak temizler
+var1.rstrip()#right
+var1.lstrip()#left
+#JOIN
+liste = ["Ali","Veli","Ankara","a.@gmail","123456"]
+print(",".join((liste))) # , ve liste içindekileri joinliyor
+
+#FORMAT FONKSİYONU
+
+var1 ="""
+Sayın {} {},
+Doğum gününüz kutlu olsun
+"""
+isim = "Ali"
+soyisim = "Veli"
+print(var1.format(isim,soyisim)) #değer vermeyince sırasıyla yerleştiri
+
+var1 ="""
+Sayın {1} {0},
+Doğum gününüz kutlu olsun
+"""
+isim = "Ali"
+soyisim = "Veli"
+print(var1.format(isim,soyisim)) #değer vermeyince sırasıyla yerleştiri
+
+
+
+
+
+
+
+
 
 
 
