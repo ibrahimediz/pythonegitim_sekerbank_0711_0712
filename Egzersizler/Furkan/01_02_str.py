@@ -16,7 +16,7 @@ print(var1[::-1])"""
 var1 = "Superman"
 liste = []
 for i in range(8):
-    liste.append(var1[i:i+1])
+    liste.insert(i,var1[i])
     print(liste)
 
 
