@@ -18,5 +18,8 @@ print("pop",liste)
 liste.remove(1)
 print("remove",liste)
 
-liste.delete("2")
-print(liste)
+
+a = [2,3,1,1,2,3,4]
+print(a)
+b = list(reversed(a.copy()))
+print(b)

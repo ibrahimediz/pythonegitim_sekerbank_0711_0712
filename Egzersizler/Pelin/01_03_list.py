@@ -32,6 +32,23 @@ print(liste)
 liste=[1,2,3,4]
 liste.pop() # son elemanı siler
 print(liste)
+del liste[0]#1.elemanı siler
+del liste[3:6]#4. , 5., 6. elemanları siler
+
+#Yardımcı Fonksiyonlar
+liste= [1,2,3]
+liste2 = liste.copy()
+liste=["Ali","Veli","Ayşe"]
+liste.index("Veli") # 1 döndürür 1. index
+liste = [1,2,3,4,5]
+liste.clear() #listenin elemanlarını döndürür
+liste=[11,57,42,69,23,2,11]
+liste.sort() #sıralar küçükten büyüğe
+liste=[11,57,42,69,23,2,11]
+liste.sort(reverse=True) #sıralar büyükten küçüğe
+liste.reverse()#listeyi tersten yazar
+liste.count(1) #listede kaç tane 1 değeri olduğunu döndürür
+
 
 
 

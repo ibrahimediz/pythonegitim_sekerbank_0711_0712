@@ -1,3 +1,3 @@
-
-liste = ["Ali","Veli",1,2,3,4]
-print(liste[3]+liste[4])
+liste = [1,2,3,4]
+liste.
+print(liste2)
