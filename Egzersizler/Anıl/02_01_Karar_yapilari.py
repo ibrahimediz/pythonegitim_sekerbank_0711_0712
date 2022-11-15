@@ -1,0 +1,1 @@
+yas=input("Yaşınız")
