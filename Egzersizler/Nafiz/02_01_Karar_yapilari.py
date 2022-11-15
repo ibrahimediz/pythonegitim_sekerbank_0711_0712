@@ -1,8 +1,14 @@
-yas = input("Yaşınızı Giriniz:") # str veri tipinde giriş 
+## Kullanıcıdan , yaş bilgisi alınsın. Numeric input olduğu kontrol edilsin.
+## Z kuşağı grubu olup olmadığı bilgisi + Uyarı
+
+yas = input("Lütfen Yaşınızı Giriniz .. :") 
 if yas:
     if yas.isdigit():
         yas = int(yas)
-        print(f"5 yıl sonra => {yas + 5} yaşında olacaksınız")
+        if (yas >18 and yas <30):
+            print("Z Kuşağı Yaş Grubundsınız")
+        else:
+            print("Z Kuşağı Yaş Grubunda değilsiniz")
     else:
         print("Nümerik bir değer girmediniz")
 else:
