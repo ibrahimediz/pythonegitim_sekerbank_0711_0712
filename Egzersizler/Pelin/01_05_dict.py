@@ -25,7 +25,7 @@ b.popitem()# en son eklenen elemanı çıkartır
 #pop
 b={"1":"Bir","2":"İki","3":"Three","4":"Four"}
 print(b.pop("2"))#verilen anahtarı değeri ile birlikte siler
-#fromkeys
+#fromkeys: anahtar atama, boş sözlük
 
 
 
