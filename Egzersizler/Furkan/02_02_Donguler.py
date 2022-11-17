@@ -1,1 +1,0 @@
-print("Bir sayı tutunuz")
