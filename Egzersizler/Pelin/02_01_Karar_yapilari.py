@@ -1,41 +1,19 @@
-yas = input("yaş giriniz:")
-if yas:
-    if yas.isdigit():
-        yas=int(yas)
-        if yas>18 and yas<30: # 18 < yas < 30
-            print(f"yaşınız: {yas }  ve Z kuşağısınız")
-        else:
-             print(f"yaşınız: {yas }  ve Z kuşağı değilsiniz")
+a1= input("1. açıyı giriniz:")
+a1 = int(a1) if a1 and a1.isdigit() else -1
+a2= input("2. açıyı giriniz:")
+a2 = int(a2) if a2 and a2.isdigit() else -1
+a1_2=  int(a1)+ int(a2)
+a3=180-a1_2
+if a1==a2==a3:
+    print("Eşkenar Üçgen")
+else:
+    if a1==a2 or a1==a3 or a2==a3:
+        print("İkizkenar Üçgen")
     else:
-        print("numerik değer girmediniz")        
-else:
-    print("değer girmediniz")
-
-#elif
-a=2
-sonuc= "çift" if a%2==0 else "tek" # tek satırda if else
-print(sonuc)
-_not = input("notunuzu giriniz:")
-_not = int(_not) if _not and _not.isdigit() else -1
-if 85<= _not <=100:
-    print("AA")
-else:
-    if 70<= _not <=84:
-        print("BB")
-    else:
-        if 55<= _not <=69:
-            print("CC")
+        if a1==90 or a2==90 or a3==90:
+            print("Dik Üçgen")
         else:
-            print("not giriniz")
-
-if 85<= _not <=100:
-    print("AA")
-elif 70<= _not <=84:
-        print("BB")
-elif 55<= _not <=69:
-        print("CC")
-else:
-     print("not giriniz")
+            print("Çeşitkenar Üçgen")
 
 
 
