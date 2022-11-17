@@ -9,3 +9,6 @@ if var1:
 else:
     print("Değer Girmelisiniz!")
   
+
+
+  

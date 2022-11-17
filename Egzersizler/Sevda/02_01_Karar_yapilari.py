@@ -29,3 +29,4 @@ if aciListesi[0]+aciListesi[1]+aciListesi[2]==180:
 else: print("Açılar hatalı")
 
 
+

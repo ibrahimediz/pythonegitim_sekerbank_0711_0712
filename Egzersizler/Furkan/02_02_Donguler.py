@@ -1,0 +1,1 @@
+print("Bir sayı tutunuz")

@@ -1,5 +1,4 @@
-yas = input("Yaşınızı Giriniz:")
-if yas:
+# yas = input("Yaşınızı Giriniz:")
     if yas.isdigit():
         if int(yas)>= 18 and int(yas)<=30:
             print("Z Kuşağı")
@@ -26,3 +25,7 @@ elif açılar1 != açılar2 and açılar3 !=açılar2:
     print("Çeşitkenar Üçgen")
 else:
     print("Nice Try")
+
+
+
+
