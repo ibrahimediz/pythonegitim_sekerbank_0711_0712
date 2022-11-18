@@ -26,13 +26,26 @@ kenar2 = int(kenar2) if kenar2 and kenar2.isdigit() else -1
 def alan_kare(a):
     print("karenin alanı:", a*a)
 def cevre_kare(a,b):
-    print("Çevre:", 4*)
+    print("Çevre:", 4*a)
 def alan_dikdortgen(a,b):
     print("dikdörtgenin alanı:", a*b)
 if kenar1==kenar2:
     alan_kare(kenar1)
-    cevre(kenar1, kenar2)
+    cevre_kare(kenar1)
 else:
     alan_dikdortgen(kenar1, kenar2)
-    cevre(kenar1, kenar2)
+    #cevre(kenar1, kenar2)
+
+    ##*args - tupple
+    ##kwarggs - dictionary
+    def fonk(**kwargs):
+        for key,value in kwargs.items():
+            if key == "selam":
+                print("selam",value)
+            if key == "naber":
+                print("naber",value)
+     
+    
+
+
 
