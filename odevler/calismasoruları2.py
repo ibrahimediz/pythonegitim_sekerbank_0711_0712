@@ -9,7 +9,7 @@
 
 
 
-"""3-Farklı üç listeyi elemanları eski listelerinde aynı sırada olacak şekilde birleştiren python kodunu yazınız"""
+"""3-Farklı üç listeyi elemanları eski listelerinde aynı sırada olacak şekilde birleştiren python kodunu yazınız (extend)"""
 
 
 

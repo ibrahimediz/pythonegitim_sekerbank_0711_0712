@@ -13,12 +13,17 @@
 # print(set(i for i in metin if i in sesliharfler))
 
 k=int(input("a:"))
-i=0
-y=100
-while i<y:
-  if k<(y/2):
-    y=int((y+1)/2)
-    print(y)
+a=0
+b=100
+while a<b and a<k<b:
+  if a<k<int((a+b)/2):
+    b=int((a+b)/2)
+    print(a,b)
   else:
-    i=int((y+1)/2)
-    print(i)
+    a=int((a+b)/2)
+    print(a,b)
+else : 
+  if int(a)==int(k) :
+    print(f"sayi {a}")
+  else:
+    print(f"sayi {b}")
