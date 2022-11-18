@@ -1,4 +1,4 @@
-# yas = input("Yaşınızı Giriniz:")
+yas = input("Yaşınızı Giriniz:")
     if yas.isdigit():
         if int(yas)>= 18 and int(yas)<=30:
             print("Z Kuşağı")

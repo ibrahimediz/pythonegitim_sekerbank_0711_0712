@@ -1,18 +1,17 @@
 cevap = ""
-max = 100
-min = 0
+max_ = 100
+min_ = 0
 while True:
-  tahmin = round((max+min)/2)
-  cevap = input(f"Tuttuğunuz sayı {tahmin} ise 'd', {tahmin}'den büyük ise 'e', {tahmin}'den küçük ise 'h' tuşuna basınız.")
+  tahmin = (max_+min_)//2
+  cevap = input(f"Tuttuğunuz sayı {tahmin} ise '3', yukarı ise '1', aşağı ise '2' tuşuna basınız.")
   if cevap:
-    if cevap == "d":
+    if cevap == "3":
       print(f"Tuttuğunuz sayı {tahmin}...")
       break   
-    elif cevap == "e":
-      min = tahmin
-      tahmin = (tahmin + max)/2
-    elif cevap == "h":
-      max = tahmin
-      tahmin = (tahmin + min)/2
+    elif cevap == "1":
+      min_ = tahmin
+    elif cevap == "2":
+      max_ = tahmin
+    tahmin = (tahmin + min_)//2
   else:
     print("Uygun bir değer giriniz.")
