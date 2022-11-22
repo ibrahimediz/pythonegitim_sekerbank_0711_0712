@@ -7,4 +7,3 @@ for item in liste:
         os.mkdir(os.path.join("Egzersizler",item))
     open(os.path.join("Egzersizler",item,dosyaismi),"a+")
 
-
