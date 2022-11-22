@@ -11,7 +11,8 @@ ilgili sözlükten anahtar kısımlarında bulunan boşlukları temizleyen pytho
 
 
 
-"""3- 
+"""
+3- 
 liste1=[1,2,3]
 liste2=[4,5,6,7,8]
 iki listeyi liste3 ile birleştiriniz?
