@@ -12,12 +12,9 @@ velocity = int(input())
 fuel = int(input())
 fuel_consumption = int(input())
 
-
-if velocity * time < distance:
-        print("Failure, Not enough time")
-if fuel * fuel_consumption < distance:
+if velocity * time < distance or (velocity * time < distance and fuel * fuel_consumption < distance):
+        print("Failure, Not enough time") 
+elif fuel * fuel_consumption < distance:
         print("Failure, Not enough fuel")
-if velocity * time < distance and fuel * fuel_consumption < distance:
-        print("Failure, Not enough time")
 else:
         print("Welcome to Mars")
