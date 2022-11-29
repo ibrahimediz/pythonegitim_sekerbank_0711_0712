@@ -1,0 +1,4 @@
+Windows İçin
+python -m venv env # yazdığınızda bulunduğunuz klasöre bir sanal python ortamı oluşturmuş olursunuz
+
+Linux ve Mac İçin

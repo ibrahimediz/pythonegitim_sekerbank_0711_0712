@@ -1,3 +1,4 @@
+print("sdds")
 inpTCKN = "10000000146" 
 # inpTCKN=input("TCKN Giriniz:")
 def TCKimlikKontrol(inpTCKN):
@@ -9,5 +10,6 @@ def TCKimlikKontrol(inpTCKN):
                 if sum(liste[0:10]) % 10 == liste[10]:
                     dogrulama = True
     return dogrulama
+    print("ok")
 
 TCKimlikKontrol(inpTCKN)
