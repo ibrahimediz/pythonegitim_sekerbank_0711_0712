@@ -1,18 +1,13 @@
-#tckno=input("tck girin")
-tckno = 12345685325
-tckno_str = str(tckno)
+inpTCKN = "10000000146" 
+# inpTCKN=input("TCKN Giriniz:")
+def TCKimlikKontrol(inpTCKN):
+    dogrulama = False
+    if inpTCKN.isdigit() and len(inpTCKN)==11:
+        if inpTCKN[0] != "0":
+            liste = list(map(int,inpTCKN))
+            if (sum(liste[0:9:2])*7 - sum(liste[1:8:2])) % 10 == liste[9]:
+                if sum(liste[0:10]) % 10 == liste[10]:
+                    dogrulama = True
+    return dogrulama
 
-print("str",tckno_str)
-print(isinstance(tckno, int))
-print(str(tckno)[0])
-
-if 1==1 and len(tckno_str) == 11 and tckno_str[0] != 0:
-    print("doğru")
-else:
-    print("nope")
-
-print(tckno)
-
-
- #isinstance(tckno, int) 
-#     if 1==1 and len(tckno) == 11 and tckno[0] != 0:
+TCKimlikKontrol(inpTCKN)
