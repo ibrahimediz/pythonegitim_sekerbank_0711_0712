@@ -1,4 +1,25 @@
 Windows İçin
-python -m venv env # yazdığınızda bulunduğunuz klasöre bir sanal python ortamı oluşturmuş olursunuz
+#####################################################################################
+C:\proje1>python -m venv env 
+# yazdığınızda bulunduğunuz klasöre bir sanal python ortamı oluşturmuş olursunuz
+# Oluşturulan ortamı aktif hale getirebilmek için 
+C:\proje1>env\Scripts\activate
+# projede yer alan bir requirements.txt dosyası varsa bunu kurabilmek için;
+(env) C:\proje1>pip install -r requirements.txt
+# projenizde kurulu olan kütüphanelerin listesini bir txt dosyasına aktarabilmek için
+(env) C:\proje1>pip freeze > requirements.txt
+#####################################################################################
+
+
 
 Linux ve Mac İçin
+#####################################################################################
+user@machine:proje1$python3 -m venv env
+# yazdığınızda bulunduğunuz klasöre bir sanal python ortamı oluşturmuş olursunuz
+# Oluşturulan ortamı aktif hale getirebilmek için 
+user@machine:proje1$source env/bin/activate
+# projede yer alan bir requirements.txt dosyası varsa bunu kurabilmek için;
+(env) user@machine:proje1$pip install -r requirements.txt
+# projenizde kurulu olan kütüphanelerin listesini bir txt dosyasına aktarabilmek için
+(env) user@machine:proje1$pip freeze > requirements.txt
+#####################################################################################
