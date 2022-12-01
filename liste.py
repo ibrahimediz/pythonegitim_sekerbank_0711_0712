@@ -1,7 +1,7 @@
 liste = ["Abdullah","Anıl","Burak","Cem","Cihan","Emre","Dilay",
 "Eyuphan","Furkan","İsmail","Nafiz","Özge","Pelin","Sevda","Fırat","Ediz","Serap"]
 import os
-dosyaismi = "04_02_From_Import.py"
+dosyaismi = "05_01_Giris.py"
 for item in liste:
     if not os.path.exists(os.path.join("Egzersizler",item)):
         os.mkdir(os.path.join("Egzersizler",item))
