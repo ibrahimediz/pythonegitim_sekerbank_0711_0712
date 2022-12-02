@@ -1,7 +1,7 @@
 liste = ["Abdullah","Anıl","Burak","Cem","Cihan","Emre","Dilay",
 "Eyuphan","Furkan","İsmail","Nafiz","Özge","Pelin","Sevda","Fırat","Ediz","Serap"]
 import os
-dosyaismi = "05_02_Encapsulation.py"
+dosyaismi = "05_04_Polymorphism.py"
 for item in liste:
     if not os.path.exists(os.path.join("Egzersizler",item)):
         os.mkdir(os.path.join("Egzersizler",item))
