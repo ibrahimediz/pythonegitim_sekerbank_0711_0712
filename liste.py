@@ -1,7 +1,7 @@
 liste = ["Abdullah","Anıl","Burak","Cem","Cihan","Emre","Dilay",
 "Eyuphan","Furkan","İsmail","Nafiz","Özge","Pelin","Sevda","Fırat","Ediz","Serap"]
 import os
-dosyaismi = "05_05_Digerleri.py"
+dosyaismi = "06_01_try_except.py"
 for item in liste:
     if not os.path.exists(os.path.join("Egzersizler",item)):
         os.mkdir(os.path.join("Egzersizler",item))
